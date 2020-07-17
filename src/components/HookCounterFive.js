@@ -6,7 +6,7 @@ function HookCounterFive() {
 
     useEffect(() => {
         document.title = `you clicked ${count} times`
-    })
+    },[count])
 
 
     return (
